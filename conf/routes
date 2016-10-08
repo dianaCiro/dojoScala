@@ -3,7 +3,8 @@
 # ~~~~
 
 # An example controller showing a sample home page
-GET     /                           controllers.HomeController.index
+GET / controllers.HomeController.index
+
 # An example controller showing how to use dependency injection
 GET     /count                      controllers.CountController.count
 # An example controller showing how to write asynchronous code
@@ -11,3 +12,10 @@ GET     /message                    controllers.AsyncController.message
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+
+# Rutas creadas manualmmente
+GET     /restaurants controllers.RestaurantController.getAll
+GET	/restaurants/:id controllers.RestaurantController.getById(id: Long)
+POST /restaurants controllers.RestaurantController.save
+PUT /restaurants controllers.RestaurantController.update(id: Long)
+DELETE	/restaurants controllers.RestaurantController.delete(id: Long)

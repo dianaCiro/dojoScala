@@ -1,0 +1,7 @@
+New log file opened at Sat Oct 08 12:30:44 COT 2016 by 5840@lis-sala4
+Taking next connection to: 58368
+New client attempting to connect on port: 36143-58368
+  Address = /127.0.1.1:58368
+This client on port 36143 has uuid fa0bf7c1-e0a7-4808-a8c4-eca32abe4365 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-fa0bf7c1-e0a7-4808-a8c4-eca32abe4365
+Taking next connection to: 58368
